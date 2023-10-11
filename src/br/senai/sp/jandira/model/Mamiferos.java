@@ -10,26 +10,29 @@ public class Mamiferos extends Animais{
 
         System.out.println("---------- CADASTRAR FELINO ----------");
         System.out.println("");
-        System.out.println("Informe o nome: ");
+        System.out.println(" Informe o nome: ");
         super.nome = keyboard.nextLine();
-        System.out.println("Informe a especie: ");
+        System.out.println(" Informe a especie: ");
         super.especie = keyboard.nextLine();
-        System.out.println("Informe o sexo [Masc/Fem]: ");
+        System.out.println(" Informe o sexo [Masc/Fem]: ");
         super.sexo = keyboard.nextLine();
-        System.out.println("Informe a idade: ");
+        System.out.println(" Informe a idade: ");
         super.idade = keyboard.nextInt();
-        System.out.println("Informe o ID do felino:");
+        System.out.println(" Informe o ID do felino:");
     }
 
     public void cadastrarCetaceos(){
 
         System.out.println("---------- CADASTRAR CETÁCEO ----------");
         System.out.println("");
-        System.out.println("Informe o nome: ");
+        System.out.println(" Informe o nome: ");
         super.nome = keyboard.nextLine();
-        System.out.println("Informe a espécie: ");
+        System.out.println(" Informe a espécie: ");
         super.especie = keyboard.nextLine();
-        System.out.println("Informe o sexo [Masc/Fem]: ");
-        super.sexo =
+        System.out.println(" Informe o sexo [Masc/Fem]: ");
+        super.sexo = keyboard.nextLine();
+        System.out.println(" Informe a idade: ");
+        super.idade = keyboard.nextInt();
+        super.id_animal = keyboard.nextInt();
     }
 }
